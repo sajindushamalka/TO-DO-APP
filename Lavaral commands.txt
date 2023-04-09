@@ -1,0 +1,22 @@
+> Create New Lavarel Project - composer create-project lavarel/lavarel (projectName)
+> Run the application - php arthisan serve
+
+Registration & Login create command
+
+> First installed the lavarel UI pacakge - composer require lavarel/ui
+> Boostrap installed - php arthisan ui bootstrap --auth
+> installed node - npm installed / npm i
+
+
+Connect the database
+
+> go to the .env file give the database name
+> run the migrate file - php artisan migrate
+
+Create Model/ With migrationfile
+
+> php artisan make:model (Model name) -m
+
+Create Controller 
+
+> php artisan make:controller (controller name)
